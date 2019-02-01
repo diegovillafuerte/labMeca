@@ -33,6 +33,7 @@ void loop() {
     digitalWrite(7, HIGH);
     digitalWrite(8, LOW);
     break;
+  
   case '1':
     digitalWrite(2, LOW);
     digitalWrite(3, HIGH);
@@ -114,7 +115,7 @@ void loop() {
     digitalWrite(7, HIGH);
     digitalWrite(8, HIGH);
     break;
-  case 'a' || 'A':
+  case 'a':
     digitalWrite(2, HIGH);
     digitalWrite(3, HIGH);
     digitalWrite(4, HIGH);
@@ -123,7 +124,7 @@ void loop() {
     digitalWrite(7, HIGH);
     digitalWrite(8, HIGH);
     break;
-  case 'b' || 'B':
+  case 'b':
     digitalWrite(2, HIGH);
     digitalWrite(3, HIGH);
     digitalWrite(4, HIGH);
@@ -132,7 +133,7 @@ void loop() {
     digitalWrite(7, HIGH);
     digitalWrite(8, HIGH);
     break;
-  case 'c' || 'C':
+  case 'c':
     digitalWrite(2, HIGH);
     digitalWrite(3, LOW);
     digitalWrite(4, LOW);
@@ -141,7 +142,7 @@ void loop() {
     digitalWrite(7, HIGH);
     digitalWrite(8, LOW);
     break;
-  case 'd' || 'D':
+  case 'd':
     digitalWrite(2, LOW);
     digitalWrite(3, HIGH);
     digitalWrite(4, HIGH);
@@ -150,7 +151,7 @@ void loop() {
     digitalWrite(7, LOW);
     digitalWrite(8, HIGH);
     break;
-  case 'e' || 'E':
+  case 'e':
     digitalWrite(2, HIGH);
     digitalWrite(3, LOW);
     digitalWrite(4, LOW);
@@ -159,7 +160,7 @@ void loop() {
     digitalWrite(7, HIGH);
     digitalWrite(8, HIGH);
     break;
-  case 'f' || 'F':
+  case 'f':
     digitalWrite(2, HIGH);
     digitalWrite(3, LOW);
     digitalWrite(4, LOW);

@@ -6,7 +6,7 @@
  */
  const int pResistor = A0;
  const int ledPin = 9;
- const int boton = A1;
+ const int boton = 48;
 // Pin 13 has an LED connected on most Arduino boards.
 // give it a name:
 int value;
@@ -23,8 +23,8 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   value2 = digitalRead(boton);
-  Serial.println("hola");
-  if(!value2){
+  Serial.println(value2);
+  if(value2){
     value = analogRead(pResistor);
     if(value > 25){
       digitalWrite(ledPin, LOW);
